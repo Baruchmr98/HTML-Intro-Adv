@@ -1,0 +1,44 @@
+ETIQUETAS Y ATRIBUTOS
+
+COMANDOS
+<!-- para indicar que es un comentario -->
+[CTRL + S] para guardar cambios
+[OPTION + Z] para ajustar el texto
+[OPTION + SHIFT + FLECHAS DE DIRECCIÓN] para copiar y pegar una línea de código
+[OPTION + FLECHAS DE DIRECCIÓN] para mover una línea de código
+[COMMAND + K + C] para agregar un comentario
+
+
+ETIQUETAS GENERALES
+Etiqueta de párrafo <p>
+Etiquetas de cabecera <h1> a <h6>
+Etiqueta de espacio <br>
+Etiqueta de división <hr>
+
+ATRIBUTOS GLOBALES
+Atributo de Clase 'class=""'
+Atributo de Identificador Único 'id=""'
+Atributo de Estilo 'style=""'
+
+MODIFICADORES DE TEXTO
+Atributo de alineación 'align=""'
+Etiqueta de enfatizado <em>
+Etiqueta de negrita <b>
+Etiqueta de subrayado <u>
+Etiqueta de tachado <del>
+
+Etiqueta de enlace <a>
+
+Etiqueta de imagen <img>
+Atributo de imagen 'src=""'
+Atributo de imagen 'alt=""'
+Atributo de ancho 'widht=""'
+Atributo de alto 'height=""'
+
+LISTAS
+Etiqueta de lista ordenada <ol>
+Etiqueta de lista desordenada <ul>
+Etiqueta de elemento de la lista <li>
+
+Etiqueta de bloques <div>
+Etiqueta de contenedor en línea <span>

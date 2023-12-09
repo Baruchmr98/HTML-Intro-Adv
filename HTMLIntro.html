@@ -1,0 +1,211 @@
+<!DOCTYPE html> <!-- es la declaracion del tipo de documento. -->
+<html lang="en">
+<head>
+    <!-- actua como un contenedor de todo aquello que quieres incluir en la pagina html, que no es visible para los usuarios de la pagina. puede incluir palabras clave, una descripcion codigo css para dar estilo al contenido -->
+    <meta charset="UTF-8">
+    <!-- especifica la codificacion de caracteres utilizada en la pagina web. en este caso, se establece la codificacion de caracteres estandar que admite una amplia variedad de idiomas y caracteres especiales -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- esta etiqueta se utiliza para establecer el tamaño y la escala inical de la pagina web en dispositivos moviles. esto asegura que la pagina se adapte bien a diferentes tamaños en dispositivos -->
+    <title>Introduccion a HTML</title> <!-- titulo que aparecera en el navegador -->
+</head>
+<body>
+    <!-- van todos los elementos del sitio. encierra todo el contenido que deseas mostrar a los usuarios que visiten tu pagina, ya sea texto, imagen, vida, juegos, pistas de audio, etc -->
+
+        <p> porque siempre quise aprender a programar. tambien me gusta mucho la tecnologia y creo que es una parte importante en la resolucion de distintos problemas que pueden ser aplicables a mi carrrera de origen </p> 
+    
+    <!-- etiquetas de cabecera (h1...h6) -->
+        <h1>Generation</h1>
+        <h2>Baruch</h2>
+        <h3>Baruch</h3>
+        <h4>Baruch</h4>
+        <h5>Baruch</h5>
+        <h6>Baruch</h6>
+    
+    <br><!-- salto de línea -->
+    <hr><!-- define una ruptura temática en una página html y, con mayor frecuencia, se muestra como una regla horizontal -->
+
+    <!--Atributos
+        Atributos globales: Son aquellos que se aplicar a todos los elementos del documento, y no dependen de la etiqueta. Entre los atributos globlales más importantes están:
+    
+            class: Se usa para especificar una clase CSS que se aplicará a un elemento. Por ejemplo <div class="clase1 clase2">.
+        
+            id: Se usa para especificar un identificador unico para un elemento (el valor debe ser único dentro del documento HTML).
+
+            style: se usa para agregar estilos a un elemento, como color, fuente, tamaño y más.https://www.aluracursos.com/blog/ques-es-html-parte-5-atributos -->
+    
+  <h3>Atributos HTML</h3>
+        <p style="color:darkgreen">
+            Los atributos HTML proporcionan información adicional sobre elementos.
+            <br>
+            Todos los elementos HTML pueden tener atributos y estos proporcionan información adicional sobre los elementos. Los atributos siempre especifican en la etiqueta de inicio, generalmente vienen en pares de nombre-valor como: nombre = "valor".
+        </p>
+        <p style="color:darkolivegreen">
+            Mira este enlace.
+        </p> 
+        
+        <br> 
+        <hr>
+
+    <h3>
+        Etiquetas de parrafos de texto.
+    </h3>
+    <p>
+        Nos sirven para crear parrafos dentro de nuestro documento. tienen una serie de atributos que nos permiten definir el tamaño, color, estilo, etc.
+    
+        <p align="center"></p>
+        <p align="right"></p>
+        <p align="left"></p>
+        <p align="justify"></p>
+    </p>
+    
+    <!--Etiquetas Semanticas: fragmentos de texto.
+    Seleccionan un fragmento de texto y dotarlo de un significado semántico especial. Lo principal es entender que no se hace sólo por mera intención visual, sino porque se le quiere dar un significado semántico y, además, por una cuestión visual https://lenguajehtml.com/html/texto/que-son/
+        -->
+    <p align = "center" style="color:darkslateblue">
+        <b><em>Enfoques de la evaluación.</em></b>
+        <!-- "em" texto efatizado; "b" formato en negrita -->
+        <!-- dentro de la etiqueta style, es posible añadir más formatos, separándolos con ";" al final de una indicación. -->
+    
+        <br>
+        <br>
+
+        En este punto, vale la pena hacer énfasis en la evaluación como <u>proceso de aprendizaje y reflexión crítica</u><!-- "u" subraya el texto -->, y no como un <del>proceso que busca evidenciar fallas para sancionarlas</del>. <!-- "del" tacha el texto -->Considerando la necesidad de generar una cultura de la evaluación, ésta debe ser vista como una aliada, que permitirá realizar de mejor manera y con mayor calidad las cosas, y no como algo nocivo que tiene por objeto romper las rutinas organizacionales vigentes por el simple hecho de hacerlo. En palabras de Roth (2004: 135), la evaluación “debería ser considerada por el poder político como un aporte en el proceso de decisión y no como un contrapoder que busca entorpecer su acción”. 
+    
+        <br>
+        <br>
+
+        Así, la evaluación forma parte de un proceso caracterizado por la necesidad de dar validez y sustento a las políticas y Programas, resultando una estrategia importante en la integración de las acciones de gobierno y la calidad de las intervenciones de la administración pública en las realidades sociales (Jaime, et al. 2013:113). En la Figura 1.4 se demuestra que la evaluación puede ser vista desde distintos enfoques dependiendo del uso que se le quiera dar. Producto de cada enfoque tenemos distintas preguntas analíticas que nos pueden orientar en la caracterización de la evaluación en México.
+    </p> 
+    
+    <br> 
+    <hr>
+
+    <!--Etiquetas de enlace
+        Los enlaces nos permiten la navegacion por medio de hipervinculos (links) que realizan una conexion y referencia hacia otros archivos o paginas web dentro de la misma aplicacion o externa a la misma.
+    
+        En HTML 5 se pueden definir los enlaces con la etiqueta a que significa "anchor" o ancla. Esta etiqueta tiene varios atributos:
+    
+        - El atributo href: nos permite definir la ubicación de la página a la que nos vamos a enlazar. Este atributo puede ser una URL (externa) o un archivo dentro de nuestra carpeta del proyecto (assets).
+        - Target: Define la ventana de destino, que puede ser una ventana nueva o la misma ventana.
+            - '_blank': abre el enlace en una nueva ventana.
+            - '_self': abre el enlace en la misma ventana. Este es el valor por defecto.
+    
+        ya que sabemos como hacer referencias a paginas, es importante conocer las distintas rutas de enlace y sus tipos.
+            - Rutas absolutas: Son aquellas que definien la ubicacion completa de un archivo o pagina web, por ejemplo: http://www.google.com.
+            - Rutas relativas: Son las que se definen a partir de la posicion en la estructura local de la pagina que lo esta refiriendo,es decir, solo indica el orden de directorios, por ejemplo: /assets/img/perritoplayero.jpg. -->
+   
+    <h4>Vinculo a</h4> 
+    <a href="https://mexicox.gob.mx" target="_blank">Méxicox</a> 
+    
+    <br> 
+    <br>
+   
+    <a href="baruchmr98@gmail.com">Enviar correo a Baru</a> 
+    
+    <br> 
+    <br>
+    
+    <!-- Etiqueta de imagen: "img"
+        La etiqueta de imagen nos permite agregar una imagen. Formatos más usados: jpg, png, gift.
+            - src (source): define la ubicación del archivo ya sea externo o interno.
+            - width: definimos ancho de imagen
+            - height: definimos el alto de nuestra imagen
+            - alt: agregamos una descripción a la imagen
+        -->
+        <img src="Assets/Spider-Man-Across-the-Spider-Verse-trailer-estreno-900x506.jpg" alt="Jeje fue lo primero que se me ocurrió."> 
+        
+        <br> 
+        <br> 
+        <br> 
+        <hr>
+    
+    <!-- Listas 
+        Ordenadas: Listas que tienen un orden (numeros o letras)
+        1.- Tacos al pastor
+        2 - Tacos de suadero
+        3.- Tacos de chicharron
+    
+        Desordenadas: Listas que NO tienen un orden (bullets o figuritas)
+        - Tacos al pastor
+        - Tacos de suadero
+        - Tacos de chicharron
+    
+        <ol> Ordered list o lista ordenada
+        <ul> Unordered list o lista desordenada
+        <li> List item o elemento de la lista </li>
+         -->
+
+        <h3>Listas ordenadas y desordenadas</h3>
+            <ol>Pasos para hacer una limonada (ordenada)
+                <li>Reúne los limones, el agua y el azucar</li>
+                <li>Se agrega azúcar a la jarra de agua</li>
+                <li>Corta los limones y exprímelos en el agua</li>
+                <li>Revuelve hasta disolver el azúcar y servir</li>
+            </ol> 
+            
+            <br> 
+            <br>
+
+            <ul>Lista de útiles (desordenada)
+                <li>Mochila</li>
+                <li>Cuadernos</li>
+                <li>Lapiceros</li>
+                <li>Tijeras</li>
+                <li>Atlas</li>
+            </ul> 
+            <br> 
+            <hr>
+    
+    <!--Etiqueta Div
+        Es una división o una sección del documento HTML.
+        Se utiliza como contenedor especifico de elementos HTML, que luego se diseñan con CSS o se manipulan con JavaScript.
+        
+        ¡Se puede poner cualquier tipo de contenido dentro de la <div> etiqueta! 
+        
+        Nota: De forma predeterminada, los navegadores siempre colocan un salto de línea antes y después del div.
+        todos los atributos que se agreguen al div se aplicarán a todos los elementos. -->
+
+        <h2>Etiqueta Div</h2>
+            <div>
+                <h4>Soy un encabezado dentro de un div.</h4>
+                <p>Soy un párrafo dentro de un div.</p>
+            </div> 
+            
+            <br> 
+            <hr>
+      
+    <!--La etiqueta <span> 
+        Es un contenedor en línea que se utiliza para marcar una parte de un texto o una parte de un documento -->
+
+        <h3>Etiqueta span</h3>
+            <p>
+                En la CH35 tomamos <span style="color:mediumorchid">cafecito en una taza coqueta</span>; y nos gusta comer <span style="color:crimson">pan con nutella.</span>
+            </p> 
+            
+            <br> 
+            <br> 
+            <hr>
+     
+    <!-- PRÁCTICA -->
+        <h1>MODIFICACIÓN DE PÁRRAFO</h1>
+            <p>
+                Érase una vez hace más de doscientos años, dos hermanos alemanes llamados <span style="color:darkgreen">Jacob</span> y <span style="color:darkred">Wilhelm Grimm</span> tenían como pasatiempo <u>compilar los cuentos de hadas que habían escuchado en sus recorridos por Europa</u>. Gracias a estos entusiastas de la literatura, <em>Caperucita Roja, Cenicienta y Blanca Nieves</em> han pasado de generación en generacion, hasta llegar a nuestros hogares para el deleite de grandes y pequeños.
+            </p>
+    
+    <h1><em>Listas</em></h1>
+        <ol>
+            <li>Leche</li>
+            <li>Huevos</li>
+            <li style="color:darkblue">Sopa de pasta</li>
+            <li><del>Arroz</del></li>
+            <li style="color:brown">Tostadas</li>
+            <li>Jamón</li>
+            <li>Queso</li>
+            <li>Gelatina</li>
+            <li><b>Aceite</b></li>
+            <li>Pan de caja</li>
+            <li>Atún</li>
+            <li>Yogurth</li>
+        </ol>
+</body>
+</html> <!-- da el cierre del documento html que iniciamos en el doctype -->

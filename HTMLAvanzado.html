@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>HTML Avanzado</title>
+
+
+</head>
+<body>
+    <h1 class="titulo">Ejemplo de tabla</h1>
+
+    <caption>    <!-- representa un título descriptivo de una tabla -->   </caption>
+
+    <table border=1; style="background-color: aqua;"> <!-- 'border' se añaden bordes a la tabla -->
+        <tr> <!-- Son las filas -->
+            <th>Encabezado<!-- Son celdas de encabezado --></th>
+            <th>Encabezado 2</th>
+        </tr>
+        <tr>
+            <td>Nombre 1</td> <!-- La primera celda de la primer fila -->
+            <td>
+                Apellido 1
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Baruch
+            </td>
+            <td>
+                Moreno
+            </td>
+            <td>
+                Romero
+            </td>
+        </tr>
+    </table>
+
+    <br> 
+    <hr>
+    <br>
+    <br>
+
+    <!-- Práctica -->
+    <div>
+        <div class="baner">
+            <h1>Reto equipo 1</h1>
+        </div>
+        <div class="chango">
+            
+            <br>
+    
+            <caption>
+                DEVORTEX
+            </caption>
+
+            <br>
+            <br>
+            
+            <table border="1px">
+                <tr>
+                    <th>NOMBRE</th>
+                    <th>APELLIDO PATERNO</th>
+                    <th>APELLIDO MATERNO</th>
+                    <th>ERRORES EN MI NOMBRE</th>
+                </tr>
+                <tr>
+                    <td>Nadia Abigail</td>
+                    <td>Martinez</td>
+                    <td>Leon</td>
+                    <td>Ponen nadie o nada en lugar de Nadia</td>
+                </tr>
+                <tr>
+                    <td>Rene</td>
+                    <td>Gomez</td>
+                    <td>Orozco</td>
+                    <td>En lugar de Gomez escriben Gomes*</td>
+                </tr>
+                <tr>
+                    <td>Eunice</td>
+                    <td>Ceja</td>
+                    <td>Santos</td>
+                    <td>Juntan Ceja+Santos+Cejas</td>
+                </tr>
+                <tr>
+                    <td>Baruch</td>
+                    <td>Moreno</td>
+                    <td>Romero</td>
+                    <td>Baruch=Baruk riman con mi numbre apodo iconico "Cuernuch"</td>
+                </tr>
+                <tr>
+                    <td>David Alberto</td>
+                    <td>Romero</td>
+                    <td>Licea</td>
+                    <td>Cuando va al medico siempre en lugar de Licea "Eliceo" </td>
+                </tr>
+                <tr>
+                    <td>Ana Karen</td>
+                    <td>Morales</td>
+                    <td>Ramos</td>
+                    <td>Entiende Karen=Karina</td>
+                </tr>
+                <tr>
+                    <td>Montserrat</td>
+                    <td>Martinez</td>
+                    <td>Galvan</td>
+                    <td>En montserrat suele pasar que omiten la "T" o una "R"</td>
+                </tr>
+                <tr>
+                    <td>Jesus Emiliano</td>
+                    <td>Madrigal</td>
+                    <td>Gonzalez</td>
+                    <td>Emiliano=Emilio o Gonzalez con S</td>
+                </tr>
+                <tr>
+                    <td>Oswaldo Ivan</td>
+                    <td>Zarza</td>
+                    <td>Morales</td>
+                    <td>Me decian zarzamora</td>
+                </tr>
+            </table>
+        </div>    
+    </div>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+
+    <!-- Más ejemplos -->
+    <table border="1">
+        <thead> <!-- agrupa los elementos de cabecera en la tabla -->
+            <tr>
+                <th colspan="3">
+                    Encabezado de tablas
+                </th> <!-- permite exapndir las celdas de datos o de encabezados al número de columnas que deseemos -->
+            </tr>
+        </thead>
+        <tbody> <!-- agrupa los elemtnos de contenido en la tabla -->
+            <tr>
+                <td>
+                    El cuerpo de la tabla
+                </td>
+                <td>
+                    Con 2 columnas
+                </td>
+                <td>
+                    Columna 
+                </td>
+            </tr>
+        </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3">
+                        Piesitos
+                    </th>
+                </tr>
+            </tfoot>
+    </table>
+    
+    <br>
+    <hr>
+    <hr>
+    <hr>
+    
+    <h1 id="indice">
+        Anclajes: Interno y externo
+    </h1>
+
+    <a href="#seccion1">
+        ¿Adoptar una mascota?
+    </a>
+    <br>
+    <a href="#seccion2">
+        ¿Cuánto cuesta mantener una mascota?
+    </a>
+    <br>
+    <a href="#seccion3">
+        Dueño responsable
+    </a>
+
+    <h2 id="seccion1">
+        ¿Adoptar una mascota? Tome en cuenta a sus gatos
+    </h2>
+    <br>
+    <img src="https://www.eleconomista.com.mx/__export/1650592718322/sites/eleconomista/img/2022/04/21/grafico_eleconomista_mexico_finanzas_personales_adopcion_de_mascotas_consejos.png_1947833983.png" alt="referencia" width="400px">
+        <p>
+            Antes de llevar un peludito a casa, debe tener en mente que es una responsabilidad monetaria a largo plazo y que ellos se merecen que les demos una vida digna.
+            <br><br>
+            Las organizaciones protectoras de animales siempre recomiendan tomar en cuenta que el adoptar una mascota representa una responsabilidad por muchos años, pero lo que también debemos tomar en cuenta antes de adoptar es el hecho de que esta responsabilidad también representa un gasto.
+            Según cifras de MSD Salud Animal México, aproximadamente 57% de las familias tiene una mascota, de las cuales, 15% tiene al menos un gato, mientras que 9.6 millones de perros forman parte de una familia.
+            Durante la pandemia de Covid-19 hubo un incremento de 41% en la búsqueda de adopción de mascotas, debido a que durante el confinamiento muchas personas sufrieron altos niveles de estrés y ansiedad.
+            Varios estudios han comprobado que el tener una mascota en casa tiene beneficios tanto físicos como emocionales, pero ellos también tienen necesidades, por lo que debemos ver por su alimentación, salud, diversión, accesorios, aseo, etc., lo cual podría repercutir en nuestro bolsillo.
+        </p>
+    <h4 id="seccion2">
+        <a href="#indice">
+            ¿Cuánto cuesta mantener una mascota?
+        </a>
+    </h4>
+        <p>
+            El gasto de una mascota dependerá de muchos factores, principalmente la talla del animalito, ya que un perro de talla pequeña no come ni tiene las mismas necesidades que uno de talla grande, por ello antes de adoptar debemos determinar a qué tipo de mascota podemos darle una vida digna.
+            Un sondeo realizado por la plataforma de servicios financieros Coru.com y la empresa de estudios de mercado Brad Engagment, arrojó que 45.4% de las personas gasta mensualmente menos de 1,000 pesos en sus mascotas, 41.3% gasta de 1,000 a 2,000, 9% gasta de 2,000 a 3,000 y 3% gasta más de 3,000 pesos mensuales.
+            El gasto inicial ronda los 2,000 pesos, entre los accesorios y la comida que debemos comprar, como una cama, un collar, una correa, un plato, juguetes, etc.
+            Si desea adoptar un gato, ellos necesitan artículos como un arenero, una pala, su cama, rascador, cepillo y corta uñas, entre otras cosas, que su costo total ronda los 3,700 pesos.
+            En cuanto al alimento, dependerá de la talla del perro, pero también del tipo de alimento que decida darle a su mascota, existen costales de croquetas desde dos kilos, hasta 30 kilos y su precio en tiendas de autoservicio ronda entre 150 y 1,500 pesos.
+            Normalmente un costal de 20 kilos dura alrededor de un mes en mascotas de talla mediana.
+            Otro punto que hay que destacar es la salud de nuestro perrito o gatito, ya que las vacunas y las visitas al veterinario representan gran parte del gasto.
+            En un inicio, las mascotas requieren de vacunas como la séxtuple para perro y cuádruple para gato, que ronda entre 300 y 500 pesos, posteriormente necesitan desparasitaciones y vacunas antirrábicas por lo menos cada año, estas rondan entre 150 y 300 pesos.
+            Una visita al veterinario por una revisión general tiene un costo aproximado entre 150 y 500 pesos, y a eso debemos sumarle que, si nuestra mascota enferma, debemos comprarle las medicinas necesarias.
+            Por la sobrepoblación de perros y gatos, autoridades y organizaciones de animales recomiendan esterilizar a nuestras mascotas, este procedimiento ronda entre 1,200 y 3,500 pesos, aunque esto dependerá del peso y el sexo de la mascota.
+        </p>
+    <h4 id="seccion3">
+        <a href="#indice">
+            Dueño responsable
+        </a>
+    </h4>
+        <p>
+            El gobierno realiza campañas de vacunación y esterilización gratuitas, incluso la Facultad de Medicina Veterinaria y Zootecnia de la UNAM puso a disposición servicios de esterilización con costos de recuperación desde 650 a 1,200 pesos.
+            Además de esto, debe contemplar que su mascota necesita aseo, muchas personas optan por bañar y cepillar a su mascota ellas mismas, por lo que únicamente gastan entre 200 y 300 pesos al año, sin embargo, hay quienes prefieren llevar a sus mascotas a estéticas caninas, por lo que el servicio varía desde 100 hasta 800 pesos por servicio.
+            Por otra parte, los animalitos necesitan distracciones, es por ello que habrá que comprarle algunos juguetes cuyo costo fluctúa entre 100 y 500 pesos.
+            Estos son solo algunos gastos que representa el tener una mascota en casa, sin contar los imprevistos, como cuando salimos de vacaciones y debemos dejar a nuestro perro o gato con algún cuidador que cobra desde 200 hasta 800 pesos por día, o cuando se enferman y requieren de procedimientos médico.
+            De acuerdo a todo lo anterior, una persona podría gastar entre 15,000 y 25,000 pesos al año en mantener a una mascota con sus necesidades básicas; esto varía, ya que muchos gastan un poquito más en darle lo mejor a sus mascotas, pues son un integrante más de la familia.
+        </p>
+    <br>
+    <br>
+    <hr>
+
+    <h2>
+        Anclaje externo
+    </h2>
+    <h5>
+        Referenciar un artículo dentro de Otro
+    </h5>
+    <a href="https://www.telediario.mx/comunidad/refugios-de-animales-en-guadalajara-para-adopcion" target="_blank">
+        Refugios GDL
+    </a> <!-- el target sirve para identificar una seccion especifica dentro del anclaje externo [NO, tengo que corregir este comentario] -->
+    <h5>
+        Anclar número telefónico
+    </h5>
+    <a href="tel:+2283047320">
+        Llamar a Baruch
+    </a>
+    <h5>
+        Anclaje de WhatsApp
+    </h5>
+    <a href="">
+        Envíanos un mensaje 
+    </a>
+    <h5>
+        Anclaje de mapa
+    </h5>
+    <a href="" target="_blank">
+        Ver ubicación a la playa
+    </a>
+    <iframe src="" frameborder="0"></iframe>
+    <h5>
+        Anclaje a redes sociales
+    </h5>
+    <a href="https://www.facebook.com/VegattosMx/">
+        Gatitos Vegattos
+    </a>
+    <br>
+    <br>
+    <hr>
+    <hr>
+
+    <h2>
+        Fomularios y tipos de entrada 
+    </h2>
+    <form action="procesar_formulario" method="post">
+
+    </form> <!-- 'form' crea formularios en HTML. 
+                'action' especifica la URL a la que se enviaran los datos del formulario cuando se envia.
+                'method' define el metodo HTTP que se utilizara para enviar los datos (puede ser 'get' o 'post') -->
+    <h4>
+        Etiqueta input <!-- crea campos de entrada en un formulario -->
+    </h4>
+    <input type="text" name="usuario" placeholder="Nombre">
+    <br>
+    <br>
+    <input type="password" name="contraseña" placeholder="Contraseña"> 
+    
+    <br>
+    <hr>
+
+    <h4>
+        Número
+    </h4>
+    <input type="number" name="number" placeholder="Elija un número">
+
+    <br>
+
+    <h4>
+        Correo electrónico
+    </h4>
+    <input type="email" name="correo" placeholder="Ingresa tu correo">
+
+    <br>
+
+    <h4>
+        Número telefónico
+    </h4>
+    <input type="tel" name="telefono" placeholder="Ingrese su número">
+
+    <br>
+
+    <h4>
+        Fecha
+    </h4>
+    <input type="date" name="fecha">
+
+    <br>
+
+    <h4>
+        Hora
+    </h4>
+    <input type="time" name="hora">
+
+    <br>
+
+    <h4>
+        Archivo
+    </h4>
+    <input type="file" name="archivo">
+
+    <br>
+    <hr>
+
+    <h4>
+        Etiqueta label <!-- etiqueta un elemento de entrada de un formulario, lo que mejora la accesibilidad y la experiencia de usuario -->
+    </h4>
+    <label for="usuario">
+        Nombre: <input type="text" id="usuario" name="usuario">
+    </label> <!-- 'for' se asocia con el 'id' de un elemento de entrada para indicar a que campo se refiere -->
+    
+    <br>
+    <hr>
+
+    <h4>
+        Etiqueta de button <!-- crea botones en un formulario que los ausuarios pueden usar -->
+    </h4>
+    <button type="submit">
+        Enviar 
+    </button> <!-- 'type' define el tipo de boton -->
+    <button type="reset">
+        Resetear
+    </button>
+
+    <br>
+    <hr>
+
+    <h4>
+        Área de texto
+    </h4>
+    <textarea name="comentarios" id="comentarios" cols="50" rows="10">
+
+    </textarea>
+    
+    <br>
+    <hr>
+
+
+</body>
+</html>
