@@ -22,13 +22,14 @@ Atributo de Estilo 'style=""'
 
 MODIFICADORES DE TEXTO
 Atributo de alineación 'align=""'
-Etiqueta de enfatizado <em>
-Etiqueta de negrita <b>
-Etiqueta de subrayado <u>
-Etiqueta de tachado <del>
+Etiqueta de enfatizado <em> | </em>
+Etiqueta de negrita <b> | </b>
+Etiqueta de subrayado <u> | </u>
+Etiqueta de tachado <del> | </del>
 
 Etiqueta de enlace <a>
-
+Atributo de enlace a "href=''"
+Atributo de enlace a una página en blanco "target='blank'"
 Etiqueta de imagen <img>
 Atributo de imagen 'src=""'
 Atributo de imagen 'alt=""'
@@ -42,3 +43,21 @@ Etiqueta de elemento de la lista <li>
 
 Etiqueta de bloques <div>
 Etiqueta de contenedor en línea <span>
+
+TABLAS
+Etiqueta para crear tablas <table> | </table>
+Etiqueta de título de tabla <caption> | </caption>
+
+Atributo para definir el ancho del borde "border=''"
+Atributo para establecer el ancho de la tabla en píxeles o como porcentaje del ancho del contenedor "widht=''"
+Atributo que controla el espacio entre las celdas "cellspacing=''"
+Atributo que controla el espacio interno de las celdas "cellpadding=''"
+
+Etiqueta que define una fila en la tabla <tr> | </tr>
+Etiqueta que define un encabezado de celda dentro de una fila o columna <th> | </th>
+Etiqueta que define una celda de datos dentro de una fila o columna <td> | </td>
+
+Atributo que especifica cuántas columnas debe abarcar la celda "colspan=''"
+Atributo que especifica cuántas filas debe abarcar la celda "rowspan=''"
+Atributo que asocia la celda con los encabezados definidos por las celdas <th> mediante identificadores "headers=''"
+
